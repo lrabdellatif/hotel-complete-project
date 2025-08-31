@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>TEST DOM</title>
+      <Link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+      <!-- HTML -->
+    <header id="main-header" class="bg-success">
+      <div class="container" style="display: flex;align-items: center;justify-content: space-between;width: 100%;">
+        <h1 id="header-title">Item Lister</h1>
+
+   
+          <input type="text"  id="input-search">
+     
+      </div> <!-- container-->
+    </header>
+    <div class="container" id="container-main">
+    
+      <div id="main" class="card card-body">
+        <h2 class="title" id="add-item-text">Add Items</h2>
+
+        <form id="form-item">
+          <input type="password"  id="input-text">
+          <input type="submit" class="btn" value="Submit" id="submit-button">
+        </form>
+        <h2 class="title" id="title-id">Items</h2>
+
+
+        <ul id="items" class="list-group">
+          <li class="list-group-item">item 1<button id="button-remove">x</button></li>
+          <li class="list-group-item">item 2<button id="button-remove">x</button></li>
+          <li class="list-group-item" >item 3<button id="button-remove">x</button></li>
+          <li class="list-group-item">item 4<button id="button-remove">x</button></li>
+        </ul>
+      </div>
+    </div> 
+     <div id="div-event" style="margin-left: 300px; width: 200px;height: 200px;background-color:antiquewhite;">
+
+    </div>
+    <p id="pButton"></p>
+    <button id="click-button" style>Click me</button>
+    </div>
+
+    <script src="./dom.js"></script>
+  </body>
+</html>
